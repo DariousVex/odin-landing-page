@@ -37,15 +37,45 @@ header {
 }
 .intro {
     display:flex;
-    align-items: center;
+    flex-flow: row;
+    justify-content:space-evenly;
     margin-left: -8px;
     padding-top: 100px;
     background-color: rgb(43, 43, 43);
-    height: 400px;
+    height: 500px;
     width: 100vw;
+}
+.intro-sub {
+    flex:1;
+    max-width: 500px;
+}
+.text {
+    text-align: center;
+    font-family: sans;
+    color: rgb(255, 229, 195);
+    padding: 10px;
 }
 .showcase {
     display: flex;
-    align-items: center;
-    height: 700px;
+    flex-flow: row;
+    justify-content: center;
+    height: 350px;
+}
+.show-title {
+    color:rgb(100, 87, 71);
+    font-family: sans;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid transparent;
+}
+.show-element {
+    max-width: 220px;
+    text-align: justify;
+    font-family: sans;
+    margin: 20px;
+}
+.image {
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    margin-left: 10px;
 }

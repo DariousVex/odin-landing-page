@@ -39,11 +39,13 @@ header {
     display:flex;
     flex-flow: row;
     justify-content:space-evenly;
+    align-items: center;
+    width:100%;
     margin-left: -8px;
+    padding-right: 55px;
     padding-top: 100px;
     background-color: rgb(43, 43, 43);
     height: 500px;
-    width: 100vw;
 }
 .intro-sub {
     flex:1;
@@ -78,4 +80,17 @@ header {
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     margin-left: 10px;
+}
+.quote-div {
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(223, 215, 206);
+    margin-left: -8px;
+    padding-right: 24px;
+    text-align: center;
+    font-family: sans;
+    font-size: 20px;
+}
+.quote {
+    padding: 80px 70px 0 70px;
 }

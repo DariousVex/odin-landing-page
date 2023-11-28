@@ -1,0 +1,51 @@
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+    width: 100vw;
+    margin: -8px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 229, 195);
+}  
+.logo {
+    font-family: Comfortaa, sans;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    flex: 1;
+}
+.menu-div {
+    display: flex;
+    justify-content: space-around;
+    font-family: sans;
+    flex: 1;
+    padding: 10px 20px;
+}
+.menu-item {
+    font-size: 20px;
+}
+.menu-item:hover {
+    color: white;
+    text-shadow: 0 0 3px;
+}
+.box {
+    border: 1px solid red;
+}
+.intro {
+    display:flex;
+    align-items: center;
+    margin-left: -8px;
+    padding-top: 100px;
+    background-color: rgb(43, 43, 43);
+    height: 400px;
+    width: 100vw;
+}
+.showcase {
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
